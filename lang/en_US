@@ -7,10 +7,6 @@ set my_sent_noquote="Sent Items"
 set my_trash="Deleted<quote-char><space>Items"
 set my_trash_noquote="Deleted Items"
 
-# Quotation and date formats
-set attribution="The %d, %n wrote:"
-set date_format="!%m/%d/%Y %H:%M"
-
 # Hours and dates
 set charset="utf-8"
 set assumed_charset="utf-8"
