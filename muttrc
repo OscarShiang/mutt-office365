@@ -13,7 +13,6 @@ source "~/.mutt/lang/$my_lang"
 
 # IMAP config
 set imap_user="$my_username@$my_domain"
-set imap_pass=$my_password
 
 set folder="imaps://outlook.office365.com/"
 set spoolfile= +INBOX
@@ -34,7 +33,6 @@ set ssl_use_sslv3=yes
 # SMTP config
 set realname = $my_realname
 set from = "$my_username@$my_domain"
-set smtp_pass = $my_password
 set hostname = $my_domain
 set smtp_url = "smtp://$my_username@$my_domain@outlook.office365.com:587/"
 set ssl_force_tls = yes
